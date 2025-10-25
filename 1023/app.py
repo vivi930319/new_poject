@@ -1,6 +1,5 @@
 from flask import Flask
 from extensions import db
-from models import Members, Checkin, Products
 import config
 
 app=  Flask(__name__)
