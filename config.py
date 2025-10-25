@@ -1,0 +1,8 @@
+import os
+DB_USER ='root'
+DB_PASSWORD = '20050823'
+DB_HOST = 'localhost'
+DB_NAME = 'my_app'
+
+SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
